@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	outline: none;
 }
 
@@ -97,19 +96,21 @@ a {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 27px;
-
 }
+
 #main-body .container .slideshow {
 	height : 480px;
-	width : 940px;
 	position:relative;
 }
+
 #main-body .container .slideshow .slideImg img{
 	position:absolute;
 }
+
 #main-body .container .slideshow ul li {
 	list-style: none;
 }
+
 .opacityBG {
 	width:604px;
 	height:200px;
@@ -240,13 +241,14 @@ a:hover .exploreNow  {
 }
 
 #banner-container {
-	margin-top: 5px;
+	/*margin-top: 5px;*/
+	width:930px;	
 	border :3px solid #212121;
 }
 #banner > p {
 	padding-left: 20px;
 	padding-bottom: 25px;
-	font-size: 25px;
+	font-size: 22px;
 	line-height: 1.3em;
 	display:inline-block;
 	font-family: oswald;
@@ -277,11 +279,11 @@ a:hover .exploreNow  {
 	transition : .3s linear;
 }
 
-
 .bolt {
-	padding:25px;
+	padding-top:25px;
 	text-align: center;	
 	background: url("https://catmagnet.com/assets/img/lightning-bolt-line.png") repeat-x center center;
+
 }
 #links ul {
 	list-style: none;
