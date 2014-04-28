@@ -60,7 +60,6 @@ a {
 #header nav ul#help-menu li a img {
 	width:20px;
 	height: 20px;
-	
 }
 
 #header nav ul#help-menu li a {
@@ -170,6 +169,32 @@ a:hover .exploreNow  {
 	margin-top: 13px;
 	text-align: center;
 	font-size: 13px;
+}
+.controls li {
+	width: 50%;
+}
+.previous a{
+	padding-top : 250px;
+	position: absolute;
+	opacity:  .5;
+	width:    15%;
+	height:   230px;
+
+}
+.previous a:hover{
+	opacity:1;
+}
+.next a {
+	padding-top : 250px;
+	padding-left: 90px;
+	margin-left: 800px;
+	position:absolute;
+	opacity:.5;
+	width:    15%;
+	height:   230px;
+}
+.next a:hover{
+	opacity:1;
 }
 .wrapper-thumbnails {
 	padding-bottom: 30px;
